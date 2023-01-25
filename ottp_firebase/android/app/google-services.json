@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101331254593",
+    "project_id": "ottpflutter",
+    "storage_bucket": "ottpflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101331254593:android:ad24c40395d6bc5e6b35c0",
+        "android_client_info": {
+          "package_name": "com.example.ottp_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101331254593-k3m1daob3b8gacaq44rk2lgoieu2tkdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFqiEjrqtdkFSC4dVF7ZyZToXNCNS8XQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101331254593-k3m1daob3b8gacaq44rk2lgoieu2tkdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
