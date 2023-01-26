@@ -10,16 +10,15 @@ class Loginpage extends StatefulWidget {
 class _LoginpageState extends State<Loginpage> {
   @override
   Widget build(BuildContext context) {
-    final Size size=MediaQuery.of
+    final Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         title: Text("Login"),
         backgroundColor: Colors.green,
       ),
       body: Container(
-        width: ,
+        width: 100,
       ),
-
     );
   }
 }
