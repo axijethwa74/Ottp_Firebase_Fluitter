@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -31,5 +29,10 @@ class AuthServices {
       accessToken: googleAuth.accessToken,
       idToken: googleAuth.idToken,
     );
+    return await FirebaseAuth.instance.signInWithCredential(credential);
+  }
+
+  signout() {
+    FirebaseAuth.instance.signOut();
   }
 }
